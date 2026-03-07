@@ -21,19 +21,19 @@ A configured server for GTA Vice City (2003). Development in progress.
 ## Goals
 Goal | Status | Done
 ------------ | ------------- | -------------
-Create different characters | +- | Police officer, SWAT officer, FBI agent, soldier, medic, firefighter, taxi driver, chainsaw worker
-Place helicopters on the map | +- | Helicopter near the police station, second military helicopter at the base
+Create different characters | +- | Police officer, SWAT officer, FBI agent, soldier, medic, firefighter, taxi driver, chainsaw worker.
+Place helicopters on the map | +- | Helicopter near the police station, second military helicopter at the base.
 Place vehicles on the map | - | 
-Place medkits and weapons on the map | +- | Vercetti mansion yard, police
+Place medkits and weapons on the map | +- | Vercetti mansion yard, police.
 
 ## Commands
 Command | Action
 ------------ | -------------
-`/heal` | Restore health.
+`/heal` | Health.
 `/armour` | Armor.
 `/guns` | Weapons.
-`/where` | Player coordinates.
-`/kill` | Kill the player.
+`/where` | Coordinates on map.
+`/kill` | Kill.
 
 Commands for test debugging; they can be removed or modified in the `main.nut` file.
 
