@@ -15,7 +15,8 @@ A configured server for GTA Vice City (2003). Development in progress.
 3. Install GTA Vice City (2003) version 1.0, without the Widescreen patch (not supported).
 4. Install `VCMP04_Installer.msi`.
 5. Extract the `Client_0.4.7.1.zip` archive into `%AppData%\..\Local\Vice City Multiplayer`.
-6. Launch `Vice City Multiplayer`, go to Tools → Settings and set your nickname (`Username`) and the path to the game (`GTA:VC Directory`).
+6. Launch `Vice City Multiplayer`, go to Tools → Settings and set your nickname and the path to the game (`GTA:VC Directory`).
+7. Add the server’s local or external IP address. For testing, you can enter 127.0.0.1, after which a multiplayer game will start by double-clicking.
 
 ## Goals
 Goal | Status | Done
