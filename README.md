@@ -3,50 +3,71 @@
 ← Choose language | Выберите язык
 
 # GTA Vice City Multiplayer
-A configured server for GTA Vice City (2003). Development in progress.
+A ready-to-use GTA Vice City multiplayer server package with additional improvements and enhanced server scripts.
 
-[![](https://github.com/user-attachments/assets/3c82817f-85e4-4ff7-a7da-fddba2dcc30f)](https://github.com/user-attachments/assets/825b7288-9b89-4f8a-b764-25d4552e3705)
-[![](https://github.com/user-attachments/assets/7d21240b-5362-47c8-94ea-d5210f647626)](https://github.com/user-attachments/assets/2c4b8d06-72ed-477e-99fb-af1aa1799024)
-[![](https://github.com/user-attachments/assets/db752eae-028f-4743-ae59-c369f23d5934)](https://github.com/user-attachments/assets/c539d500-e2d7-47fa-91be-92b348053408)
+<img width="444" height="280" alt="logo" src="https://github.com/user-attachments/assets/3e3093af-9aa8-4c5a-bb8b-74810ca6af6e" />
 
-## Server Setup
-1. Extract the server archive — `Server.zip`
-2. Run `server64.exe` and allow network access.
-3. Install GTA Vice City (2003) version 1.0, without the Widescreen patch (not supported).
-4. Install `VCMP04_Installer.msi`.
-5. Extract the `Client_0.4.7.1.zip` archive into `%AppData%\..\Local\Vice City Multiplayer`.
-6. Launch `Vice City Multiplayer`, go to Tools → Settings and set your nickname and the path to the game (`GTA:VC Directory`).
-7. Add the server’s local or external IP address. For testing, you can enter 127.0.0.1, after which a multiplayer game will start by double-clicking.
+## Gameplay
+<a href="#" target="_blank">
+    <img width="260" height="146" alt="Helicopter flights" src="https://github.com/user-attachments/assets/86d8c752-feda-4fc5-a00d-a6615ca5cf42" />
+    <img width="260" height="146" alt="Boat rides" src="https://github.com/user-attachments/assets/ad8fc2b3-eb06-4a48-90fe-cc352b708c31" />
+    <img width="260" height="146" alt="Player battles" src="https://github.com/user-attachments/assets/21517faa-fd51-42a4-b57a-aafc5ebe4db0" />
+    <img width="260" height="146" alt="Weapon shop" src="https://github.com/user-attachments/assets/1211c641-f2f1-454c-a6c6-4eba3118b3eb" />
+    <img width="260" height="146" alt="Vehicle repair" src="https://github.com/user-attachments/assets/a4e673c6-203b-4e36-b7c7-a64d57d0b3ea" />
+    <img width="260" height="146" alt="Teleport" src="https://github.com/user-attachments/assets/5242a473-ba10-41df-acf5-9d63d21c6325" />
+</a>
 
-## Goals
-Goal | Status | Done
------------- | ------------- | -------------
-Create different characters | +- | Police officer, SWAT officer, FBI agent, soldier, medic, firefighter, taxi driver, chainsaw worker.
-Place helicopters on the map | +- | Helicopter near the police station, second military helicopter at the base.
-Place vehicles on the map | - | 
-Place medkits and weapons on the map | +- | Vercetti mansion yard, police.
+## Features
+- Added selectable player characters.
+- All weapons from the original game are available on the map, along with additional weapons.
+- All vehicles from the original game (including hidden vehicles) have been placed around the map, along with additional vehicles, including helicopters and boats.
+- Added health pickups and body armor.
+- Added money pickups.
+- Added teleport points for quick travel around the city.
+- Implemented vehicle repair at Pay 'n' Spray shops through object interaction.
+
+## Installation and Setup
+1. Install **GTA Vice City (2003), original English version 1.0**  (recommended), without any patches (No-CD is allowed).
+2. Launch the game and select your desired screen resolution (e.g. 1920x1080).
+3. (Optional) To enable widescreen support, extract the contents of the `Widescreen Fix` archive into the game folder. If widescreen mode doesn't work, use the Xdelta patch.
+4. Extract `Server.zip` on the computer that will host the server (e.g. to `C:\Games\GTA VC Multiplayer\Server`). Create a desktop shortcut for `server64.exe`.
+5. Run `server64.exe` and allow it through Windows Firewall.
+6. Extract `Client.zip` on each computer that will connect to the server (e.g. to `C:\Games\GTA VC Multiplayer\Client`). Create a desktop shortcut for `VCMPBrowser.exe`.
+7. Run `VCMPBrowser.exe` and open **Tools → Settings**. Enter your nickname (`Username`) and the path to your game folder (`GTA:VC Directory`).
+8. Select **Server → Add Server** and enter the server address in `IP:Port` format.
+   - For LAN play, enter the local IP address of the computer hosting the server (e.g. `192.168.0.100:8192`).
+   - To test the server on the same computer, use `127.0.0.1:8192`.
+   - For internet play, you need to configure port forwarding on your router so other players can connect to the server. Also make sure Windows Firewall allows incoming connections.
 
 ## Commands
-Command | Action
+Commands are disabled by default. To enable them, open `scripts\main.nut` and set `DEBUG_MODE` to `true`.
+
+Command | Description
 ------------ | -------------
-`/heal` | Health.
-`/armour` | Armor.
-`/guns` | Weapons.
-`/where` | Coordinates on map.
-`/kill` | Kill.
+`/health` | Restore health.
+`/armour` | Get body armor.
+`/guns` | Get a shotgun, assault rifle and submachine gun.
+`/bring` | Teleport another player to your location.
+`/kill` | Kill yourself.
+`/where` | Display your current map coordinates.
+`/tp`, `/tpto` | Display your coordinates in a format convenient for copying into the teleport script.
+`/up`, `/down`, `/left`, `/right` | Move your character forward, backward, left or right through walls (useful when working with teleport points).
 
-Commands for test debugging; they can be removed or modified in the `main.nut` file.
-
-## Download
+## Downloads
 > Server, client and other files.
 
-**[Download](https://github.com/r57zone/GTA-Vice-City-Multiplayer/releases)**
+**[Download](https://github.com/GTA-Vice-City-Multiplayer/GTA-Vice-City-Multiplayer/releases)**
 
 ## Useful Links
-[Multiplayer Developers Forum](https://forum.vc-mp.org/index.php) | 
-[Character Models](https://wiki.gtaconnected.com/Resources/GTAVC/PedSkins) | 
+[Multiplayer Developer Forum](https://forum.vc-mp.org/index.php) | 
+[Ped Models](https://wiki.gtaconnected.com/Resources/GTAVC/PedSkins) | 
 [Weapon Models](https://wiki.gtaconnected.com/Resources/GTAVC/Weapons) | 
 [Vehicle Models](https://wiki.vc-mp.org/wiki/Vehicles)
 
 ## Credits
-MEGAMIND — for providing links and assistance.
+- [MEGAMIND](https://forum.vc-mp.org/index.php?action=profile;u=483) - for providing useful links and assistance.
+- [ChatGPT](https://chatgpt.com) - for the client image, help with weapon coordinates and other information.
+- [Claude AI](https://claude.ai) - for help creating the widescreen hack for the multiplayer version.
+
+## Feedback
+`r57zone@gmail.com`
