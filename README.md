@@ -21,7 +21,7 @@ A ready-to-use multiplayer server build with additional improvements and enhance
 - All vehicles from the original game (including hidden vehicles) have been placed around the map, along with additional vehicles, including helicopters and boats.
 - Added health pickups and body armor.
 - Added money pickups.
-- Added teleport points for quick travel around the city.
+- Added and placed teleport points at certain locations.
 - Implemented vehicle repair at Pay 'n' Spray shops through object interaction.
 
 ## Installation and Setup
