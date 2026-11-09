@@ -63,6 +63,7 @@
 [Модели транспорта](https://wiki.vc-mp.org/wiki/Vehicles)
 
 ## Благодарности
+- [VC:MP Development Team](https://www.vc-mp.org/) — за создание мультиплеера Vice City.
 - [MEGAMIND](https://forum.vc-mp.org/index.php?action=profile;u=483) - за предоставленные ссылки и помощь.
 - [ChatGPT](https://chatgpt.com) - за картинку клиента, помощь с координатами оружия и прочую справку.
 - [Claude AI](https://claude.ai) — за помощь в создании широкоэкранного хака для мультиплеерной версии.

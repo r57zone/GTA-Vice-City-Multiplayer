@@ -63,6 +63,7 @@ Command | Description
 [Vehicle Models](https://wiki.vc-mp.org/wiki/Vehicles)
 
 ## Credits
+- [VC:MP Development Team](https://www.vc-mp.org/) — for creating the Vice City multiplayer modification.
 - [MEGAMIND](https://forum.vc-mp.org/index.php?action=profile;u=483) - for providing useful links and assistance.
 - [ChatGPT](https://chatgpt.com) - for the client image, help with weapon coordinates and other information.
 - [Claude AI](https://claude.ai) - for help creating the widescreen hack for the multiplayer version.
