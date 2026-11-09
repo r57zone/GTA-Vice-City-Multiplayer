@@ -8,14 +8,12 @@ A ready-to-use GTA Vice City multiplayer server package with additional improvem
 <img width="444" height="280" alt="logo" src="https://github.com/user-attachments/assets/3e3093af-9aa8-4c5a-bb8b-74810ca6af6e" />
 
 ## Gameplay
-<a href="#" target="_blank">
-    <img width="260" height="146" alt="Helicopter flights" src="https://github.com/user-attachments/assets/86d8c752-feda-4fc5-a00d-a6615ca5cf42" />
-    <img width="260" height="146" alt="Boat rides" src="https://github.com/user-attachments/assets/ad8fc2b3-eb06-4a48-90fe-cc352b708c31" />
-    <img width="260" height="146" alt="Player battles" src="https://github.com/user-attachments/assets/21517faa-fd51-42a4-b57a-aafc5ebe4db0" />
-    <img width="260" height="146" alt="Weapon shop" src="https://github.com/user-attachments/assets/1211c641-f2f1-454c-a6c6-4eba3118b3eb" />
-    <img width="260" height="146" alt="Vehicle repair" src="https://github.com/user-attachments/assets/a4e673c6-203b-4e36-b7c7-a64d57d0b3ea" />
-    <img width="260" height="146" alt="Teleport" src="https://github.com/user-attachments/assets/5242a473-ba10-41df-acf5-9d63d21c6325" />
-</a>
+[![Helicopter flights](https://github.com/user-attachments/assets/86d8c752-feda-4fc5-a00d-a6615ca5cf42)](https://www.youtube.com/feed/subscriptions?flow=2) 
+[![Boat rides](https://github.com/user-attachments/assets/ad8fc2b3-eb06-4a48-90fe-cc352b708c31)](https://www.youtube.com/feed/subscriptions?flow=2)
+[![Player battles](https://github.com/user-attachments/assets/21517faa-fd51-42a4-b57a-aafc5ebe4db0)](https://www.youtube.com/feed/subscriptions?flow=2)
+[![Weapon shop](https://github.com/user-attachments/assets/1211c641-f2f1-454c-a6c6-4eba3118b3eb)](https://www.youtube.com/feed/subscriptions?flow=2)
+[![Vehicle repair](https://github.com/user-attachments/assets/a4e673c6-203b-4e36-b7c7-a64d57d0b3ea)](https://www.youtube.com/feed/subscriptions?flow=2)
+[![Teleport](https://github.com/user-attachments/assets/5242a473-ba10-41df-acf5-9d63d21c6325)](https://www.youtube.com/feed/subscriptions?flow=2)
 
 ## Features
 - Added selectable player characters.
